@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".PauseActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pauseScore">
+
+        <Button
+            android:id="@+id/resumeBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic1_resume"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/resume_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/restartBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:drawableStart="@drawable/ic2_restart"
+            android:text="@string/restart_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/mainMenuBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/main_menu_text"
+            android:drawableStart="@drawable/ic_rank"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/exit_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:drawableStart="@drawable/ic1_e"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pauseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingStart="30dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="10sp"
+        android:text="@string/pause_text"
+
+        android:textColor="@color/colorBackground"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pauseScore" />
+
+    <TextView
+        android:id="@+id/pauseModeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="sans-serif-black"
+        android:padding="8dp"
+        android:text="Mode:Easy"
+        android:textColor="@color/colorBackground"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pauseScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="sans-serif-black"
+        android:padding="8dp"
+        android:text="Score: 15"
+        android:textColor="@color/colorBackground"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/soundImage"
+        app:layout_constraintStart_toEndOf="@+id/pauseModeText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/soundImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_speaker_on" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

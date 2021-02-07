@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level_text">Bosqichlar</string>
+    <string name="score_text">Hisob</string>
+    <string name="loading_ad_text">Yuklanmoqda ...</string>
+    <string name="easy_text">Oson</string>
+    <string name="medium_text">O\'rta</string>
+    <string name="hard_text">Qiyin</string>
+    <string name="get_ready_text">Tayyorlan</string>
+    <string name="new_game_text">Yangi o\'yin</string>
+    <string name="rankings_text">Reyting</string>
+    <string name="exit_text">Chiqish</string>
+    <string name="resume_text">Davom ettirish</string>
+    <string name="restart_text">Boshidan boshlash</string>
+    <string name="pause_text">Pauza</string>
+    <string name="enter_your_name">Ismingizni kiriting</string>
+    <string name="play_again_text">Yana o\'ynash</string>
+    <string name="main_menu_text">Asosiy Menyu</string>
+    <string name="about_logo_text">Haqida</string>
+    <string name="share_text">Ulashish</string>
+    <string name="username_text">"Ism: "</string>
+    <string name="local_text">Shahsiy</string>
+    <string name="global_text">Global</string>
+    <string name="username_length_warning">Ism uzunligi 10 harfdan oshmasligi lozim</string>
+    <string name="edit_username_message">Ismni o\'zgartirish uchun bosib turing</string>
+    <string name="share_message1">Salom !!!. Mening Matrain deb nomlangan ajoyib o\'yindagi rekordimni tekshirib ko\'ring.</string>
+    <string name="share_message2">"O'yinga havola: "</string>
+    <string name="share_score_text">Hisobni ulashish</string>
+    <string name="instructions_text">Qo\'llanma</string>
+    <string name="about_text">Haqida</string>
+    <string name="about_instructions"> Matrain uchta etapdan iborat: oson, o\'rta va qiyin. Har bir bosqichda sizga 20 soniya vaqt beriladi.\n Har bitta to\’g\’ri javob uchin: \nOson -   ball +1,   vaqt +2\nO\’rta -    ball +2,   vaqt +2\nQiyin -   ball +2,   vaqt +2\Har bitta noto\’g\’ri javob uchun: \nOson -  vaqt -2\nO\’rta -    vaqt -1\nQiyin -  vaqt -0.5\n. Har bir etapda turli xil arifmetik operatorlar foydalanadi va har bir to\'gri javob uchun har xil miqdorda ball beriladi \n Oson + \t \t \t \t \t \t \t 1 \n  O\'rta - + \t \t \t \t \t 2  \n Qiyin -  +  /  * \t \t \t \t \t 3</string>
+    <string name="ranking_text">Reyting</string>
+    <string name="game_text">Dastur</string>
+    <string name="about_matrain">"Matematika bizning hayotimizning ajralmas qismidir. U sizga kuningizni rejalashtirishingizda ham, oddiy harid qilishingizda ham birdek kerak boladi. Ba'zan esa biz har kungi oddiy va sodda bo’lgan hisob kitoblarni bajarishda qiyinchiliklarga duch kelamiz va kalkulyatorlardan foydalanishni boshlaymiz. Matrain - bu oddiy matematik o'yin bo'lib, u sizning arifmetik amallar bajarish ko'nikmalaringizni oson va qiziqarli shaklda rivojlantirish uchun yaratilgan. Buning uchun sizdan talab etiladigan narsa faqatgina kuningizning bir necha daqiqasini shu matematikangizni rivojlantirish  uchun   sarflashingiz bas. Va oxir-oqibat siz oziq-ovqat ro'yxatidagi mahsulotlarni sotib olish uchun qancha pul kerakligini bilish uchun kalkulyator yordamiga muhtoj bo’lmaysiz. "</string>
+    <string name="about_ranking">Matrain ikkita reyting jadvalidan iborat: global va lokal. Global reytingda butun dunyo bo\'ylab foydalanuvchilarning reytingi bo\'ladi. O\'zingizning reytingingizni global reytinga ulashish uchun siz Internetga ulangan bo’lishingiz lozim. (* Bu funktsiya faqatgina natijangiz beshdan yuqori bo’lsagina mavjud bo’ladi ). Sizning global reytingdagi o’rningiz sizning ballaringiz soniga qarab reytinga joylashtiriladi. Sizning ballingiz qancha yuqori bo\'lsa, reytingdagi o’rningiz shuncha yuqori bo\'ladi. Lokal reytingda esa, sizning ballaringiz avtomatik ravishda qo\'shiladi va ushbu reyting taxtasiga kirish uchun siz Internet tarmog’iga ulanishingiz shart emas.</string>
+    <string name="mode_text">"Bosqich: "</string>
+    <string name="your_score_is_text">"Sizning natijangiz: "</string>
+    <string name="score_shared_message">Sizning natijangiz dunyo reytingiga qo\'shildi.</string>
+    <string name="clear_local_ranking_notif">Sizning shahsiy reyting ma\'lumotlaringiz o\'chirildi</string>
+    <string name="clear_text">Tozalash</string>
+    <string name="ochkov">" "</string>
+    <string name="cancel_text">Bekor qilish</string>
+    <string name="connect_to_wifi">Wi_Fi ni yoqish</string>
+    <string name="no_internet_notif">Internet mavjud emas.</string>
+    <string name="changeUserName">O\'zgartirish</string>
+    <string name="emptyUserName">Foydalanuvchi nomi bo\'sh bo\'lishi mumkin emas</string>
+    <string name="back_to_exit">"Dasturdan chiqish uchun, yana bit mar marta bosing"</string>
+
+
+</resources>

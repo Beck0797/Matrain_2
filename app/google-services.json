@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321428067342",
+    "firebase_url": "https://matrain-uz.firebaseio.com",
+    "project_id": "matrain-uz",
+    "storage_bucket": "matrain-uz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321428067342:android:a8a19f4734fe313b9b985f",
+        "android_client_info": {
+          "package_name": "com.beck.matrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321428067342-kajhjfubj8fv8es0dkf17eaetiqa0699.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beck.matrain",
+            "certificate_hash": "a15449f5607657c2b26ef88d358905d20e90f0ca"
+          }
+        },
+        {
+          "client_id": "321428067342-94g4vot37lqtgb8pgde1pd3s0r0fqhfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIoQ6JCYt1xFl9G6UHMh4_932ZXDJkMzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321428067342-94g4vot37lqtgb8pgde1pd3s0r0fqhfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

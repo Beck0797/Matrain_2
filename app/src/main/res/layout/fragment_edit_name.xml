@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_edit_name"
+    android:padding="5dp"
+    tools:context=".EditNameFragment">
+
+
+
+        <EditText
+            android:id="@+id/usernameEditText2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:fontFamily="sans-serif-black"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorBackground"
+            android:textSize="14sp"
+            tools:ignore="LabelFor" />
+        <Button
+            android:layout_toEndOf="@+id/usernameEditText2"
+            android:id="@+id/btnChange"
+            android:minHeight="30dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/edit_name_btn_bg"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/changeUserName"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="12sp" />
+
+
+
+
+</RelativeLayout>

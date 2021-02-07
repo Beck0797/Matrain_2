@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">Matrain</string>
+    <string name="about_logo_text">About</string>
+    <string name="share_text">Share</string>
+    <string name="equal_sign_text" translatable="false">=</string>
+    <string name="pause_sign_text" translatable="false">||</string>
+    <string name="minus_sign_text" translatable="false">—</string>
+    <string name="one_num_text" translatable="false">1</string>
+    <string name="two_num_text" translatable="false">2</string>
+    <string name="three_num_text" translatable="false">3</string>
+    <string name="four_num_text" translatable="false">4</string>
+    <string name="five_num_text" translatable="false">5</string>
+    <string name="six_num_text" translatable="false">6</string>
+    <string name="seven_num_text" translatable="false">7</string>
+    <string name="eight_num_text" translatable="false">8</string>
+    <string name="nine_num_text" translatable="false">9</string>
+    <string name="del_text" translatable="false">del</string>
+    <string name="zero_num_text" translatable="false">0</string>
+    <string name="level_text">Level</string>
+    <string name="score_text">Score</string>
+    <string name="loading_ad_text">Loading . . .</string>
+    <string name="matrain_text" translatable="false">Matrain</string>
+    <string name="easy_text">Easy</string>
+    <string name="medium_text">Medium</string>
+    <string name="hard_text">Hard</string>
+    <string name="get_ready_text">Get Ready</string>
+    <string name="new_game_text">New Game</string>
+    <string name="rankings_text">Rankings</string>
+    <string name="exit_text">Exit</string>
+    <string name="resume_text">Resume</string>
+    <string name="restart_text">Restart</string>
+    <string name="pause_text">Pause</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="username_text">Username: </string>
+    <string name="play_again_text">Play Again</string>
+    <string name="plus_sign_text" translatable="false">+</string>
+    <string name="main_menu_text">Main Menu</string>
+    <string name="local_text">Local</string>
+    <string name="global_text">Global</string>
+    <string name="username_length_warning">Username length should not exceed 10 letters</string>
+    <string name="edit_username_message">Long press to edit username</string>
+    <string name="share_message1">"Hello !!!. Check out my score from Matrain awesome app. My score is "</string>
+    <string name="share_message2">" Let me recommend you this application  "</string>
+    <string name="share_score_text">Share score</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_matrain">Math is an essential part of our lives. It is everywhere, starting from planning your day to doing simple grocery shopping. Sometimes we feel difficulties in calculating those daily simple math operations and start using calculators which may cause inconvenience and decrease our performance. Matrain is simple math game that’s designed to develop your arithmetic operations skills in an easy and fun way. All you need to do is to spend several minutes of your day to practice your math and eventually, you won’t need to look for a calculator to know how much money you will need to buy the products in the grocery list.</string>
+    <string name="about_instructions">"Matrain consists of three levels: easy, medium, and hard. In each level, you will be given 20 seconds. For every correct answer: \nEasy -   score +1,   time +2\nMedium -   score +2,   time +2\nHard -   score +2,   time +2\nFor every wrong answer: \nEasy -  time -2\nMedium -    time -1\nHard -  time -0.5\n Every level uses different arithmetic operators and scoring policies.  \t Operator \t \t \t \t \t Points   1 "</string>
+    <string name="about_ranking">Matrain has two ranking boards: global and local. In the global ranking, there will be users’ scores all over the world. You need to have an internet connection to check or share your score to the global ranking. In the end of each game, you will be asked if you want to share your score globally (*this option is available if only your score is higher than 5 points). Your global rank will be placed based on your points. The higher your score, the higher your rank. The local ranking uses the same ranking policy as global. However, your scores will automatically be added to local ranking and you don’t need an internet connection to access this ranking board.</string>
+    <string name="instructions_text">Instructions</string>
+    <string name="about_text">About</string>
+    <string name="ranking_text">Ranking</string>
+    <string name="game_text">Game</string>
+    <string name="your_score_is_text">"Your score is: "</string>
+    <string name="mode_text">Mode:</string>
+    <string name="go_text" translatable="false">GO !!!</string>
+    <string name="score_shared_message">\"Your score has been shared with the world\"</string>
+    <string name="clear_local_ranking_notif">Your local scores has been cleared</string>
+    <string name="clear_text">Clear</string>
+    <string name="ochkov">" "</string>
+    <string name="math_train_text" translatable="false">Math Training</string>
+    <string name="no_internet_notif">In order to view Global Rankings, you need Internet connection. Do you want to turn on Wi-Fi?</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="connect_to_wifi">Connect to Wi-fi</string>
+    <string name="emptyUserName">Username cannot be empty</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="changeUserName">Change</string>
+    <string name="back_to_exit">"Please click BACK again to exit"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

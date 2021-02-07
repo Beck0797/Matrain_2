@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".LevelsActivity">
+
+    <TextView
+        android:id="@+id/logoTextLevels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/layout_bg"
+        android:clickable="false"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="20dp"
+        android:text="@string/matrain_text"
+        android:textColor="@color/colorBackground"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/levelsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/easyBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic1_easy"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:onClick="chooseLevel"
+            android:text="@string/easy_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/mediumBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ic_medium"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:onClick="chooseLevel"
+            android:text="@string/medium_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/hardBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif-black"
+            android:onClick="chooseLevel"
+            android:drawableStart="@drawable/ic1_new_game"
+            android:text="@string/hard_text"
+            android:textColor="@color/colorWhiteBackground"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/getReadyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/get_ready_text"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="sans-serif-black"
+        android:padding="15dp"
+        android:textColor="@color/colorBackground"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/levelsContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/secondsToStartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/layout_bg"
+        android:layout_marginBottom="32dp"
+        android:text="@string/three_num_text"
+        android:fontFamily="sans-serif-black"
+        android:padding="8dp"
+        android:textColor="@color/colorBackground"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/getReadyText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

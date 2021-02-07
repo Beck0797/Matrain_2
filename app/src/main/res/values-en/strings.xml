@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_logo_text">About</string>
+    <string name="username_text">"Username: "</string>
+    <string name="play_again_text">Play Again</string>
+    <string name="share_text">Share</string>
+    <string name="level_text">Level</string>
+    <string name="score_text">Score</string>
+    <string name="loading_ad_text">Loading . . .</string>
+    <string name="easy_text">Easy</string>
+    <string name="medium_text">Medium</string>
+    <string name="hard_text">Hard</string>
+    <string name="get_ready_text">Get Ready</string>
+    <string name="new_game_text">New Game</string>
+    <string name="rankings_text">Rankings</string>
+    <string name="exit_text">Exit</string>
+    <string name="resume_text">Resume</string>
+    <string name="pause_text">Pause</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="restart_text">Restart</string>
+    <string name="main_menu_text">Main Menu</string>
+    <string name="local_text">Local</string>
+    <string name="global_text">Global</string>
+    <string name="username_length_warning">Username length should not exceed 10 letters</string>
+    <string name="edit_username_message">Long press to edit username</string>
+    <string name="share_message1">"Hello !!!. Check out my score from Matrain awesome app. My score is "</string>
+    <string name="share_message2">\nLet me recommend you this application\n\n</string>
+    <string name="share_score_text">Share score</string>
+    <string name="instructions_text">Instructions</string>
+    <string name="about_text">About</string>
+    <string name="about_matrain">Math is an essential part of our lives. It is everywhere, starting from planning your day to doing simple grocery shopping. Sometimes we feel difficulties in calculating those daily simple math operations and start using calculators which may cause inconvenience and decrease our performance. Matrain is simple math game that’s designed to develop your arithmetic operations skills in an easy and fun way. All you need to do is to spend several minutes of your day to practice your math and eventually, you won’t need to look for a calculator to know how much money you will need to buy the products in the grocery list.</string>
+    <string name="about_instructions">"Matrain consists of three levels: easy, medium, and hard. In each level, you will be given 20 seconds. For every correct answer: \nEasy -   score +1,   time +2\nMedium -   score +2,   time +2\nHard -   score +2,   time +2\nFor every wrong answer: \nEasy -  time -2\nMedium -    time -1\nHard -  time -0.5\n Every level uses different arithmetic operators and scoring policies.\n Easy:  + \t \t \t \t \t \t \t 1 \n  Medium:   - + \t \t \t \t \t 2  \n Hard:   -  +  /  * \t \t \t \t \t3 </string>
+    <string name="about_ranking">Matrain has two ranking boards: global and local. In the global ranking, there will be users’ scores all over the world. You need to have an internet connection to check or share your score to the global ranking. In the end of each game, you will be asked if you want to share your score globally (*this option is available if only your score is higher than 5 points). Your global rank will be placed based on your points. The higher your score, the higher your rank. The local ranking uses the same ranking policy as global. However, your scores will automatically be added to local ranking and you don’t need an internet connection to access this ranking board.</string>
+    <string name="ranking_text">Ranking</string>
+    <string name="game_text">Game</string>
+    <string name="your_score_is_text">Your score is:</string>
+    <string name="mode_text">Mode:</string>
+    <string name="score_shared_message">\"Your score has been shared with the world\"</string>
+    <string name="clear_local_ranking_notif">Your local scores has been cleared</string>
+    <string name="clear_text">Clear</string>
+    <string name="ochkov">" "</string>
+    <string name="no_internet_notif">In order to view Global Rankings, you need Internet connection. Do you want to turn on Wi-Fi?</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="connect_to_wifi">Connect to Wi-fi</string>
+    <string name="changeUserName">Change</string>
+    <string name="emptyUserName">Username cannot be empty</string>
+    <string name="back_to_exit">"Please click BACK again to exit"</string>
+
+
+</resources>
