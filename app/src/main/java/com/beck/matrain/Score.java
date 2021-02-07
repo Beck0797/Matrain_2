@@ -1,10 +1,16 @@
 package com.beck.matrain;
 
+import com.google.firebase.firestore.PropertyName;
+
 import java.io.Serializable;
 
 public class Score implements Serializable, Comparable {
+    @PropertyName("username")
     String username;
-    int score, level;
+    @PropertyName("level")
+    int level;
+    @PropertyName("score")
+    int score;
 
     public Score() {
 
