@@ -1,10 +1,5 @@
 package com.beck.matrain;
 
-/*
- Created by Otabek Abduraufov on 7/22/2020.
-
- */
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

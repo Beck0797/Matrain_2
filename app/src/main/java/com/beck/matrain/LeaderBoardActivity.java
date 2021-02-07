@@ -6,11 +6,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.util.Log;
-import android.view.View;
+
 import android.view.WindowManager;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -18,10 +15,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -40,13 +33,9 @@ public class LeaderBoardActivity extends AppCompatActivity {
     List<Score> mScoreList = new ArrayList<>();
     RecyclerView scoresRecyclerView;
     ScoreRecyclerAdapter mScoreRecyclerAdapter;
-    AdRequest adRequest;
-    ProgressBar mProgressBar;
-    TextView loadingAd;
     private boolean reachedBottom;
     private boolean isFirstPageFirstLoad = true;
     private DocumentSnapshot lastVisible;
-    private InterstitialAd mInterstitialAd;
 
     //Gets Ranking data from Firebase
     private void loadData() {
@@ -102,33 +91,6 @@ public class LeaderBoardActivity extends AppCompatActivity {
 //        loadAd();
     }
 
-    // Shows the Google Ad
-//    private void loadAd() {
-//        MobileAds.initialize(this, initializationStatus -> Log.i(TAG, "onInitializationComplete: " + initializationStatus.toString()));
-//
-//
-//        if (mInterstitialAd.isLoaded()) {
-//
-//            mInterstitialAd.show();
-//
-//            mInterstitialAd.setAdListener(new AdListener() {
-//
-//                @Override
-//                public void onAdClosed() {
-//                    super.onAdClosed();
-//                    loadData();
-//                    checkScrolling();
-//                }
-//            });
-//            mProgressBar.setVisibility(View.INVISIBLE);
-//            loadingAd.setVisibility(View.INVISIBLE);
-//
-//        }
-//
-//
-//    }
-
-
     //    Checks whether use has Internet Connection
     public boolean isOnline() {
         ConnectivityManager cm =
@@ -159,31 +121,11 @@ public class LeaderBoardActivity extends AppCompatActivity {
         } else {
 
 
-
             mFirestore = FirebaseFirestore.getInstance();
 
             scoresRecyclerView = findViewById(R.id.scoreRecyclerView);
-//            mProgressBar = findViewById(R.id.adProgressBar);
-//            loadingAd = findViewById(R.id.loadingAdText);
-
             mScoreRecyclerAdapter = new ScoreRecyclerAdapter(mScoreList);
 
-//            mInterstitialAd = new InterstitialAd(this);
-//            mInterstitialAd.setAdUnitId("ca-app-pub-1915468079410759/3959597243");
-//
-//            adRequest = new AdRequest.Builder().build();
-//
-//            mInterstitialAd.loadAd(adRequest);
-//
-//            mInterstitialAd.setAdListener(new AdListener() {
-//                public void onAdLoaded() {
-//                    mProgressBar.setVisibility(View.VISIBLE);
-//
-//                    loadAd();
-//                }
-//            });
-//
-//            mProgressBar.setIndeterminate(true);
             loadData();
             checkScrolling();
 
@@ -242,8 +184,6 @@ public class LeaderBoardActivity extends AppCompatActivity {
                         mScoreRecyclerAdapter.notifyDataSetChanged();
 
                     }
-                    //                            Log.i(TAG, "onEvent: " + mSecretList.size());
-
                 }
 
 
