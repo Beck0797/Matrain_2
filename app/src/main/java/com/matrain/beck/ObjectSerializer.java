@@ -1,4 +1,4 @@
-package com.beck.matrain;
+package com.matrain.beck;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.beck.matrain">
+    package="com.matrain.beck">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,16 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.beck.matrain.aboutTextActivity"
+            android:name="com.matrain.beck.aboutTextActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.LocalRanking"
+            android:name="com.matrain.beck.LocalRanking"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.ChooseRankingType"
+            android:name="com.matrain.beck.ChooseRankingType"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.SplashScreen"
+            android:name="com.matrain.beck.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,28 +31,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.beck.matrain.PauseActivity"
+            android:name="com.matrain.beck.PauseActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.LevelsActivity"
+            android:name="com.matrain.beck.LevelsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.RegisterActivity"
+            android:name="com.matrain.beck.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.FinishActivity"
+            android:name="com.matrain.beck.FinishActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.AboutActivity"
+            android:name="com.matrain.beck.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.LeaderBoardActivity"
+            android:name="com.matrain.beck.LeaderBoardActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.GameActivity"
+            android:name="com.matrain.beck.GameActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.beck.matrain.MainActivity"
+            android:name="com.matrain.beck.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

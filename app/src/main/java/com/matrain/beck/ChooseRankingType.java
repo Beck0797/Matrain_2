@@ -1,4 +1,4 @@
-package com.beck.matrain;
+package com.matrain.beck;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 public class ChooseRankingType extends AppCompatActivity {

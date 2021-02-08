@@ -1,4 +1,4 @@
-package com.beck.matrain;
+package com.matrain.beck;
 
 import android.content.Context;
 import android.content.Intent;

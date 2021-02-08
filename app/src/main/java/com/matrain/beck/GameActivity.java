@@ -1,4 +1,4 @@
-package com.beck.matrain;
+package com.matrain.beck;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -33,8 +33,8 @@ public class GameActivity extends AppCompatActivity {
     private TextView userAnswerTextView;
     private SeekBar timerSeekBar;
     private int level = 1;
-    private Random random = new Random();
-    private List<Integer> randomFourNumbers = new ArrayList<>();
+    private final Random random = new Random();
+    private final List<Integer> randomFourNumbers = new ArrayList<>();
     private int answer;
     private TextView scoreTextView;
     public static Boolean isSoundOn = true;

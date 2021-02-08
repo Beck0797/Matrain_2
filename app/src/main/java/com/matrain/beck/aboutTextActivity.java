@@ -1,14 +1,14 @@
-package com.beck.matrain;
+package com.matrain.beck;
 
+import android.graphics.text.LineBreaker;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-
-import static android.text.Layout.JUSTIFICATION_MODE_INTER_WORD;
 
 public class aboutTextActivity extends AppCompatActivity {
 
@@ -16,6 +16,7 @@ public class aboutTextActivity extends AppCompatActivity {
     String aboutText;
     TextView aboutTypeText;
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +46,7 @@ public class aboutTextActivity extends AppCompatActivity {
 
         //Justifies the text
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            aboutTextView.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
+            aboutTextView.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         }
     }
 }
