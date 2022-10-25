@@ -1,5 +1,4 @@
 # Matrain_2
-# Scheduler - Personal Course Organizer
 ![Graphic Image](play_store_data/FGMatrain.png)
 ## Desciption
 An efficient educational math game for adults and children who like to solve interesting puzzles and math problems.  
